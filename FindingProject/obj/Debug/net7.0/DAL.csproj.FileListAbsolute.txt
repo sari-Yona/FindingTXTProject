@@ -1,0 +1,30 @@
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\bin\Debug\net7.0\DAL.deps.json
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\bin\Debug\net7.0\DAL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\bin\Debug\net7.0\DAL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\bin\Debug\net7.0\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\bin\Debug\net7.0\DOT.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\FindingProject\obj\Debug\net7.0\DAL.csproj.CopyComplete
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\bin\Debug\net7.0\DAL.deps.json
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\bin\Debug\net7.0\DAL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\bin\Debug\net7.0\DAL.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\bin\Debug\net7.0\DOT.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\bin\Debug\net7.0\DOT.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.csproj.CopyComplete
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\refint\DAL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\DAL.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\FindingProject\obj\Debug\net7.0\ref\DAL.dll

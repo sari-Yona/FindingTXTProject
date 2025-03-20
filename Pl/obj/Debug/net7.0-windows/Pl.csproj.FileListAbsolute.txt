@@ -1,0 +1,39 @@
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Pl.exe
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Pl.deps.json
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Pl.runtimeconfig.json
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Pl.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Pl.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\BLL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\DAL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\BLL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\DAL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.csproj.AssemblyReference.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.Form1.resources
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.csproj.GenerateResource.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.AssemblyInfoInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.AssemblyInfo.cs
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.csproj.CoreCompileInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.csproj.CopyComplete
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\refint\Pl.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.genruntimeconfig.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\obj\Debug\net7.0-windows\ref\Pl.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\DOT.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Microsoft.OpenApi.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\Pl\bin\Debug\net7.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.csproj.AssemblyReference.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\Pl.Form1.resources
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.csproj.GenerateResource.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.AssemblyInfoInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.AssemblyInfo.cs
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.csproj.CoreCompileInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\refint\PL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\Pl\obj\Debug\net7.0-windows\PL.pdb

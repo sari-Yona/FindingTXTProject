@@ -1,0 +1,4 @@
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\publish\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\publish\DOT.deps.json
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\publish\DOT.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\publish\Newtonsoft.Json.dll

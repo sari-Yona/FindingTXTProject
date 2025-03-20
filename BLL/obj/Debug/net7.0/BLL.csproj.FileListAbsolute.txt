@@ -1,0 +1,34 @@
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\BLL.deps.json
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\BLL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\BLL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\DAL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\DAL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\refint\BLL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\BLL.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\obj\Debug\net7.0\ref\BLL.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\BLL\bin\Debug\net7.0\DOT.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\BLL.deps.json
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\BLL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\BLL.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\DAL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\DOT.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\DAL.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\bin\Debug\net7.0\DOT.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\refint\BLL.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\BLL.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\BLL\obj\Debug\net7.0\ref\BLL.dll

@@ -1,0 +1,24 @@
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\bin\Debug\net7.0\DOT.deps.json
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\bin\Debug\net7.0\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\bin\Debug\net7.0\DOT.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.csproj.AssemblyReference.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.AssemblyInfoInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.AssemblyInfo.cs
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.csproj.CoreCompileInputs.cache
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\refint\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\DOT.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\שיעורי בית\FindingProject\DOT\obj\Debug\net7.0\ref\DOT.dll
+C:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\bin\Debug\net7.0\DOT.deps.json
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\bin\Debug\net7.0\DOT.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\bin\Debug\net7.0\DOT.pdb
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.csproj.AssemblyReference.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.AssemblyInfoInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.AssemblyInfo.cs
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.csproj.CoreCompileInputs.cache
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\refint\DOT.dll
+c:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\DOT.pdb
+C:\Users\This User\Desktop\הנדסאים\C#\FindingProject\DOT\obj\Debug\net7.0\ref\DOT.dll

@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="styleSheet" href="css.css">
+
+</head>
+
+<body onload="return loadfunction()" onunload="return unloadfunction()" class="container">
+    <h1>חיפושים חכמים בתנך</h1>
+    <input type="text" id="Word" /> הקש מילה לחיפוש<br />
+    <select id="index">
+        <option value="-1">באפשרותך לבחור חומש לחיפוש</option>
+        <option value="0">בראשית</option>
+        <option value="1">שמות</option>
+        <option value="2">ויקרא</option>
+        <option value="3">במדבר</option>
+        <option value="4">דברים</option>
+    </select>
+    <button onclick="Search()" class="button">חפש </button>
+
+    <br><br>
+    <input type="text" id="name" /> חפש פסוקים לשמות אנשים<br />
+    <button onclick="SearchForName()" class="button">חפש </button>
+
+    <br><br>
+    <input type="text" id="gimatriA" /> חפש ערך גימטרי המחזיר מילה בודדת<br />
+    <button onclick="SearchGimatriA()" class="button">חפש </button>
+
+    <br><br>
+    <input type="text" id="gimatriB" /> חפש ערך גימטרי המחזיר רצף מילים בפסוק<br />
+    <button onclick="SearchGimatriB()" class="button">חפש </button>
+    <br><br>
+    <button onclick="showLastSearches()" class="button">הצג חיפושים אחרונים</button>
+    <br><br>
+    <button onclick="delLastSearches()" class="button">מחק חיפושים אחרונים</button>
+    <div id="div"></div>
+
+    <script>
+        let last
+        function delLastSearches() {
+            div=document.getElementById("div")
+            div.innerText=""
+            axios.get("https://localhost:7096/api/Delete")
+                .then((result) => { console.log("clear was sucsessfully") })
+        }
+
+        function unloadfunction() {
+            axios.get("https://localhost:7096/api/UnLoad")
+                .then((result) => { console.log("save was sucsessfully") })
+        }
+
+        function loadfunction() {
+
+            axios.get("https://localhost:7096/api/Load")
+                .then((result) => { console.log("reading was sucsessfully") })
+        }
+
+        function showSearch() {
+            div = document.getElementById("div")
+            index = event.srcElement.id
+            res=last[index].pasuks
+            div.innerText = ""
+            let tbl, caption, tr, th, td, str//הגדרה של משתנים
+            tbl = document.createElement("table")//יצירת טבלה חדשה
+            tbl.setAttribute("border", "1")//נתינת מאפיינים
+            caption = document.createElement("caption")//יצירת כותרת
+            caption.textContent = "תוצאות החיפוש"//כתיבת הטקסט לכותרת
+            tbl.appendChild(caption)//אימוץ הכותרת לתוך הטבלה
+            tr = document.createElement("tr")//יצירת שורה חדשה
+            th = document.createElement("th")//יצירת תא  של כותרת 
+            th.textContent = "פסוק"//כתיבת תוכן התא
+            tr.appendChild(th)//אימוץ התא לשורה
+            th = document.createElement("th")
+            th.textContent = "פרק"
+            tr.appendChild(th)
+            th = document.createElement("th")
+            th.textContent = "חומש"
+            tr.appendChild(th)
+            th = document.createElement("th")
+            th.textContent = "תוכן"
+            tr.appendChild(th)
+            tbl.appendChild(tr)//אימוץ השורה לטבלה
+            for (let index = 0; index < res.length; index++) {
+                tr = document.createElement("tr")//יצירת שורה חדשה
+                td = document.createElement("td")
+                td.textContent = res[index].location.pasuk//כתיבת תוכן התא
+                tr.appendChild(td)//אימוץ התא לשורה
+                td = document.createElement("td")
+                td.textContent = res[index].location.perek
+                tr.appendChild(td)
+                td = document.createElement("td")
+                td.textContent = res[index].location.bookName
+                tr.appendChild(td)
+                td = document.createElement("td")
+                td.textContent = res[index].value
+                tr.appendChild(td)
+                tbl.appendChild(tr)
+            }
+            div.appendChild(tbl)//אימוץ הטבלה לדיב
+        }
+
+        function showLastSearches() {
+
+            axios.get("https://localhost:7096/api/lastSearch")
+                .then((result) => {
+                    last = result.data
+                    div = document.getElementById("div")
+                    div.innerText = ""
+                    let tbl, caption, tr, th, td, str//הגדרה של משתנים
+                    tbl = document.createElement("table")//יצירת טבלה חדשה
+                    tbl.setAttribute("border", "1")//נתינת מאפיינים
+                    caption = document.createElement("caption")//יצירת כותרת
+                    caption.textContent = "חיפושים אחרונים"//כתיבת הטקסט לכותרת
+                    tbl.appendChild(caption)//אימוץ הכותרת לתוך הטבלה
+                    tr = document.createElement("tr")//יצירת שורה חדשה
+                    th = document.createElement("th")//יצירת תא  של כותרת 
+                    th.textContent = "תאריך"//כתיבת תוכן התא
+                    tr.appendChild(th)//אימוץ התא לשורה
+                    th = document.createElement("th")
+                    th.textContent = "הערך שחופש"
+                    tr.appendChild(th)
+                    tbl.appendChild(tr)
+                    for (let index = 0; index < result.data.length; index++) {
+                        tr = document.createElement("tr")//יצירת שורה חדשה
+                        tr.addEventListener("click", showSearch)
+                        td = document.createElement("td")
+                        td.setAttribute("id", index)
+                        td.setAttribute("data", result.data[index].pasuks[0])
+                        td.textContent = result.data[index].date//כתיבת תוכן התא
+                        tr.appendChild(td)//אימוץ התא לשורה
+                        td = document.createElement("td")
+                        td.setAttribute("id", index)
+                        td.setAttribute("data", result.data[index].pasuks[0])
+                        td.textContent = result.data[index].word
+                        tr.appendChild(td)
+                        tbl.appendChild(tr)
+                    }
+                    div.appendChild(tbl)//אימוץ הטבלה לדיב
+                })
+        }
+
+        function Search() {
+
+            axios.get("https://localhost:7096/api/Tanach/" + document.getElementById("Word").value + "," + document.getElementById("index").value)
+                .then((result) => {
+                    div = document.getElementById("div")
+                    div.innerText = ""
+                    let tbl, caption, tr, th, td, str//הגדרה של משתנים
+                    tbl = document.createElement("table")//יצירת טבלה חדשה
+                    tbl.setAttribute("border", "1")//נתינת מאפיינים
+                    caption = document.createElement("caption")//יצירת כותרת
+                    caption.textContent = "תוצאות החיפוש"//כתיבת הטקסט לכותרת
+                    tbl.appendChild(caption)//אימוץ הכותרת לתוך הטבלה
+                    tr = document.createElement("tr")//יצירת שורה חדשה
+                    th = document.createElement("th")//יצירת תא  של כותרת 
+                    th.textContent = "פסוק"//כתיבת תוכן התא
+                    tr.appendChild(th)//אימוץ התא לשורה
+                    th = document.createElement("th")
+                    th.textContent = "פרק"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "חומש"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "תוכן"
+                    tr.appendChild(th)
+                    tbl.appendChild(tr)//אימוץ השורה לטבלה
+                    for (let index = 0; index < result.data.length; index++) {
+                        tr = document.createElement("tr")//יצירת שורה חדשה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.pasuk//כתיבת תוכן התא
+                        tr.appendChild(td)//אימוץ התא לשורה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.perek
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.bookName
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].value
+                        tr.appendChild(td)
+                        tbl.appendChild(tr)
+                    }
+                    div.appendChild(tbl)//אימוץ הטבלה לדיב
+                });
+        }
+
+        function SearchForName() {
+            axios.get("https://localhost:7096/api/Names/" + document.getElementById("name").value)
+                .then((result) => {
+                    div = document.getElementById("div")
+                    div.innerText = ""
+                    let tbl, caption, tr, th, td, str//הגדרה של משתנים
+                    tbl = document.createElement("table")//יצירת טבלה חדשה
+                    tbl.setAttribute("border", "1")//נתינת מאפיינים
+                    caption = document.createElement("caption")//יצירת כותרת
+                    caption.textContent = "תוצאות החיפוש"//כתיבת הטקסט לכותרת
+                    tbl.appendChild(caption)//אימוץ הכותרת לתוך הטבלה
+                    tr = document.createElement("tr")//יצירת שורה חדשה
+                    th = document.createElement("th")//יצירת תא  של כותרת 
+                    th.textContent = "פסוק"//כתיבת תוכן התא
+                    tr.appendChild(th)//אימוץ התא לשורה
+                    th = document.createElement("th")
+                    th.textContent = "פרק"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "חומש"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "תוכן"
+                    tr.appendChild(th)
+                    tbl.appendChild(tr)//אימוץ השורה לטבלה
+                    for (let index = 0; index < result.data.length; index++) {
+                        tr = document.createElement("tr")//יצירת שורה חדשה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.pasuk//כתיבת תוכן התא
+                        tr.appendChild(td)//אימוץ התא לשורה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.perek
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.bookName
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].value
+                        tr.appendChild(td)
+                        tbl.appendChild(tr)
+                    }
+                    div.appendChild(tbl)//אימוץ הטבלה לדיב
+                });
+        }
+
+        function SearchGimatriA() {
+
+            axios.get("https://localhost:7096/api/GimatriA/" + document.getElementById("gimatriA").value)
+                .then((result) => {
+                    div = document.getElementById("div")
+                    div.innerText = ""
+                    let tbl, caption, tr, th, td, str//הגדרה של משתנים
+                    tbl = document.createElement("table")//יצירת טבלה חדשה
+                    tbl.setAttribute("border", "1")//נתינת מאפיינים
+                    caption = document.createElement("caption")//יצירת כותרת
+                    caption.textContent = "תוצאות החיפוש"//כתיבת הטקסט לכותרת
+                    tbl.appendChild(caption)//אימוץ הכותרת לתוך הטבלה
+                    tr = document.createElement("tr")//יצירת שורה חדשה
+                    th = document.createElement("th")//יצירת תא  של כותרת 
+                    th.textContent = "פסוק"//כתיבת תוכן התא
+                    tr.appendChild(th)//אימוץ התא לשורה
+                    th = document.createElement("th")
+                    th.textContent = "פרק"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "חומש"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "תוכן"
+                    tr.appendChild(th)
+                    tbl.appendChild(tr)//אימוץ השורה לטבלה
+                    for (let index = 0; index < result.data.length; index++) {
+                        tr = document.createElement("tr")//יצירת שורה חדשה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.pasuk//כתיבת תוכן התא
+                        tr.appendChild(td)//אימוץ התא לשורה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.perek
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.bookName
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].value
+                        tr.appendChild(td)
+                        tbl.appendChild(tr)
+                    }
+                    div.appendChild(tbl)//אימוץ הטבלה לדיב
+                });
+        }
+
+        function SearchGimatriB() {
+
+            axios.get("https://localhost:7096/api/GimatriB/" + document.getElementById("gimatriB").value)
+                .then((result) => {
+                    div = document.getElementById("div")
+                    div.innerText = ""
+                    let tbl, caption, tr, th, td, str//הגדרה של משתנים
+                    tbl = document.createElement("table")//יצירת טבלה חדשה
+                    tbl.setAttribute("border", "1")//נתינת מאפיינים
+                    caption = document.createElement("caption")//יצירת כותרת
+                    caption.textContent = "תוצאות החיפוש"//כתיבת הטקסט לכותרת
+                    tbl.appendChild(caption)//אימוץ הכותרת לתוך הטבלה
+                    tr = document.createElement("tr")//יצירת שורה חדשה
+                    th = document.createElement("th")//יצירת תא  של כותרת 
+                    th.textContent = "פסוק"//כתיבת תוכן התא
+                    tr.appendChild(th)//אימוץ התא לשורה
+                    th = document.createElement("th")
+                    th.textContent = "פרק"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "חומש"
+                    tr.appendChild(th)
+                    th = document.createElement("th")
+                    th.textContent = "תוכן"
+                    tr.appendChild(th)
+                    tbl.appendChild(tr)//אימוץ השורה לטבלה
+                    for (let index = 0; index < result.data.length; index++) {
+                        tr = document.createElement("tr")//יצירת שורה חדשה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.pasuk//כתיבת תוכן התא
+                        tr.appendChild(td)//אימוץ התא לשורה
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.perek
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].location.bookName
+                        tr.appendChild(td)
+                        td = document.createElement("td")
+                        td.textContent = result.data[index].value
+                        tr.appendChild(td)
+                        tbl.appendChild(tr)
+                    }
+                    div.appendChild(tbl)//אימוץ הטבלה לדיב
+                });
+        }
+
+
+
+
+
+        // function addPlayer() {
+        //     axios.post("https://localhost:7086/api/Players/AddPlayer", { id: "2222", name: "bbb", stars: "90" }).
+        //         then((result) => {
+        //             document.getElementById("results").innerHTML = JSON.stringify(result.data)
+        //         });
+        // }
+
+        // function updatePlayer() {
+        //     axios.post("localhost:3027/api/players/updatePlayer/${id}", { id: "2", name: "bbb", stars: "90" }).
+        //         then((result) => {
+        //             document.getElementById("results").innerHTML = "נעדכן עוד מעט"
+        //         });
+        // }
+    </script>
+</body>
+
+</html>
